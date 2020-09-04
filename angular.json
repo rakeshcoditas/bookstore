@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bookstore"
+    }
+  },
+  "defaultProject": "bookstore",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }

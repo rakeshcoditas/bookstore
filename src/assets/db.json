@@ -1,0 +1,41 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "As a Man Thinketh",
+      "image": "assets/As a Man Thinketh.jpg",
+      "description": "This book explains the human thought process and how to control them, before they control us.There are 60000 thoughts that hits our brain in an average."
+    },
+    {
+      "id": 4,
+      "title": "As a Man Thinketh 4",
+      "image": "",
+      "description": "This book explains the human thought process and how to control them, before they control us.There are 60000 thoughts that hits our brain in an average."
+    },
+    {
+      "id": 7,
+      "title": "As a Man Thinketh",
+      "image": "assets/As a Man Thinketh.jpg",
+      "description": "This book explains the human thought process and how to control them, before they control us.There are 60000 thoughts that hits our brain in an average."
+    },
+    {
+      "id": 8,
+      "title": "As a Man Thinketh",
+      "image": "assets/As a Man Thinketh.jpg",
+      "description": "This book explains the human thought process and how to control them, before they control us.There are 60000 thoughts that hits our brain in an average."
+    },
+    {
+      "id": 9,
+      "title": "As a Man Thinketh",
+      "image": "assets/As a Man Thinketh.jpg",
+      "description": "This book explains the human thought process and how to control them, before they control us.There are 60000 thoughts that hits our brain in an average."
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userName": "admin",
+      "password": "admin"
+    }
+  ]
+}

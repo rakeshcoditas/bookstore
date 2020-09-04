@@ -1,0 +1,20 @@
+<div class="edit">
+    <table>
+        <tr>
+            <td><b>Title</b></td>
+            <td><input type="text" [(ngModel)]="book.title"></td>
+        </tr>
+        <tr>
+            <td><b>Image</b></td>
+            <td><input type="file" [(ngModel)]="book.image"></td>
+        </tr>
+        <tr>
+            <td><b>Description</b></td>
+            <td><textarea name="description" id="" cols="30" rows="10" [(ngModel)]="book.description"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button (click)="bookUpdate()">Update</button></td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,19 @@
+<div class="main">
+
+  <!--cards -->
+
+  <div class="card" *ngFor="let book of books">
+
+    <div class="image">
+      <img [src]="'assets/As a Man Thinketh.jpg'">
+    </div>
+    <div class="title">
+      <h1>{{book.title}}</h1>
+    </div>
+    <div class="description">
+      <p>{{book.description}}</p>
+      <button *ngIf="isLoggin" [routerLink]="['/edit',book.id]">Edit</button>
+      <button *ngIf="isLoggin" (click)="deleteBook(book.id)">Delete</button>
+    </div>
+  </div>
+</div>
