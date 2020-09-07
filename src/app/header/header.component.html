@@ -10,6 +10,7 @@
     
     <div class="nav-links">
       <a routerLink="add" *ngIf="isLoggin">Add New Book</a>
+      <a routerLink="register" *ngIf="!isLoggin">Register</a>
       <a routerLink="login" *ngIf="!isLoggin">Login</a>
       <a (click)="logout()" *ngIf="isLoggin">Logout</a>
     </div>

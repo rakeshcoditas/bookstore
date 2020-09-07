@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  isLoggin:boolean=false;
+  isLoggin:boolean;
   constructor(private bookService:BookService,private router:Router) { }
 
   ngOnInit() {
@@ -21,6 +21,6 @@ export class HeaderComponent implements OnInit {
 
   logout(){
     this.bookService.isLoggin.next(false);
-    this.router.navigateByUrl("/")
+    this.router.navigate(["/"])
   }
 }

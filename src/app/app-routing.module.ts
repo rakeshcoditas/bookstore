@@ -4,10 +4,12 @@ import { EmployeeComponent } from './employee/employee.component';
 import { BooklistComponent } from './booklist/booklist.component'
 import { NewComponent } from './new/new.component';
 import { EditComponent } from './edit/edit.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   {path:"",component:BooklistComponent},
   {path:"login",component:EmployeeComponent},
+  {path:"register",component:RegisterComponent},
   {path:"add",component:NewComponent},
   {path:"edit/:id",component:EditComponent}
 ];

@@ -18,6 +18,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { BookEffects } from './book.effects';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BookEffects } from './book.effects';
     HeaderComponent,
     EmployeeComponent,
     NewComponent,
-    EditComponent
+    EditComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

@@ -12,7 +12,7 @@ export class EmployeeComponent implements OnInit {
   userName:string;
   password:string;
 
-  constructor(private router:Router,private bookService:BookService) { }
+  constructor(private router:Router,public bookService:BookService) { }
 
   ngOnInit(): void {
   }
@@ -20,7 +20,7 @@ export class EmployeeComponent implements OnInit {
   login(){
     if(this.userName=="admin" && this.password=="admin"){
       this.bookService.isLoggin.next(true);
-      this.router.navigateByUrl("/");
+      this.router.navigate(["/"]);
     }
 
   }

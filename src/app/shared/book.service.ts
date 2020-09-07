@@ -15,10 +15,11 @@ export class BookService {
 
   mockUrl="http://localhost:3000/books";
 
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient) { 
+    this.isLoggin.next(false)
+  }
 
   getAllBooks():Observable<Book[]>{
-    this.isLoggin.next(true);
     return this.http.get<Book[]>(this.mockUrl,headerOption);
   }
 
