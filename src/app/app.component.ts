@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Footer } from '../footer';
+
+console.assert(Footer !== undefined)
 
 @Component({
   selector: 'app-root',
