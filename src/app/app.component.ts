@@ -9,5 +9,5 @@ console.assert(Footer !== undefined)
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'bookstore';
+
 }

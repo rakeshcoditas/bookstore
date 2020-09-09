@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { BookService } from '../shared/book.service';
 import { Router } from '@angular/router';
+import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-header',
@@ -9,10 +10,10 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
   isLoggin:boolean;
-  constructor(private bookService:BookService,private router:Router) { }
+  constructor(private userService:UserService,private router:Router) { }
 
   ngOnInit() {
-    this.bookService.isLoggin.subscribe(
+    this.userService.isLoggin.subscribe(
       (isLoggin)=>{
         this.isLoggin=isLoggin
       }
@@ -20,7 +21,7 @@ export class HeaderComponent implements OnInit {
   }
 
   logout(){
-    this.bookService.isLoggin.next(false);
+    this.userService.isLoggin.next(false);
     this.router.navigate(["/"])
   }
 }

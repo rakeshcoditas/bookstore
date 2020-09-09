@@ -11,12 +11,11 @@ const headerOption={
   providedIn: 'root'
 })
 export class BookService {
-  public isLoggin = new BehaviorSubject<boolean>(false);
 
   mockUrl="http://localhost:3000/books";
 
   constructor(private http:HttpClient) { 
-    this.isLoggin.next(false)
+
   }
 
   getAllBooks():Observable<Book[]>{

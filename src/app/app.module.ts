@@ -8,9 +8,9 @@ import { AppComponent } from './app.component';
 import { BookService } from  './shared/book.service';
 import { BooklistComponent } from './booklist/booklist.component';
 import { HeaderComponent } from './header/header.component';
-import { EmployeeComponent } from './employee/employee.component';
 
-import { NewComponent } from './new/new.component';
+
+import { NewComponent } from './add-new-book/new.component';
 import { EditComponent } from './edit/edit.component';
 import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './reducers';
@@ -19,13 +19,14 @@ import { environment } from '../environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { BookEffects } from './book.effects';
 import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BooklistComponent,
     HeaderComponent,
-    EmployeeComponent,
+    LoginComponent,
     NewComponent,
     EditComponent,
     RegisterComponent

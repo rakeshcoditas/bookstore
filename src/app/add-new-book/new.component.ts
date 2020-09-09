@@ -14,7 +14,7 @@ export class NewComponent implements OnInit {
 book:Book=new Book();
   constructor(private bookService:BookService,private router:Router) { 
     this.book.title="";
-    this.book.image="";
+    this.book.url="";
     this.book.description="";
   }
 

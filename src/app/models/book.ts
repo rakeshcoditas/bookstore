@@ -1,6 +1,6 @@
 export class Book{
-    id:number;
+    id?:number;
     title:string;
     description:string;
-    image:string;
+    url:string;
 }

@@ -21,7 +21,6 @@ export class EditComponent implements OnInit {
         this.bookService.getBook(id).subscribe(
           (book)=>{
            this.book=book;
-           this.book.image="";
           }
         )
       }

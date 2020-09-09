@@ -3,39 +3,52 @@
     {
       "id": 1,
       "title": "As a Man Thinketh",
-      "image": "assets/As a Man Thinketh.jpg",
+      "url": "assets/As a Man Thinketh.jpg",
       "description": "This book explains the human thought process and how to control them, before they control us.There are 60000 thoughts that hits our brain in an average."
     },
     {
       "id": 4,
-      "title": "As a Man Thinketh 4",
-      "image": "",
-      "description": "This book explains the human thought process and how to control them, before they control us.There are 60000 thoughts that hits our brain in an average."
+      "title": "Disappearing Earth",
+      "url": "https://static01.nyt.com/images/2019/11/21/books/best-books-2019/best-books-2019-articleLarge.jpg?quality=90&auto=webp",
+      "description": "One August afternoon, on the shoreline of the north-eastern edge of Russia, two sisters are abducted. In the ensuing weeks, then months, the police investigation turns up nothing. Echoes of the disappearance reverberate across a tightly woven community, with the fear and loss felt most deeply among its women."
     },
     {
       "id": 7,
       "title": "As a Man Thinketh",
-      "image": "assets/As a Man Thinketh.jpg",
+      "url": "assets/As a Man Thinketh.jpg",
       "description": "This book explains the human thought process and how to control them, before they control us.There are 60000 thoughts that hits our brain in an average."
     },
     {
       "id": 8,
       "title": "As a Man Thinketh",
-      "image": "assets/As a Man Thinketh.jpg",
+      "url": "assets/As a Man Thinketh.jpg",
       "description": "This book explains the human thought process and how to control them, before they control us.There are 60000 thoughts that hits our brain in an average."
     },
     {
       "id": 9,
       "title": "As a Man Thinketh",
-      "image": "assets/As a Man Thinketh.jpg",
+      "url": "assets/As a Man Thinketh.jpg",
       "description": "This book explains the human thought process and how to control them, before they control us.There are 60000 thoughts that hits our brain in an average."
+    },
+    {
+      "title": "A new world disorder",
+      "url": "https://cdn.downtoearth.org.in/library/medium/2020-07-30/0.25446700_1596116564_covid-book.jpg",
+      "description": "The world is in a state of disorder. As we approach the end of the Second decade of the twenty-first century, all about us is chaos. The rise of the East is viewed with scepticism and fear by the West. The international liberal order is facing a moment of crisis. With Darwinism (or the survival of the strongest and fittest) having guided the construction and management of international systems of governance for seven decades, it is no surprise that as sweeping change overtakes",
+      "id": 10
     }
   ],
-  "employees": [
+  "users": [
     {
       "id": 1,
       "userName": "admin",
       "password": "admin"
+    },
+    {
+      "fullName": "Rakesh Sahoo",
+      "email": "rakesh.sahoo@coditas.com",
+      "userName": "rsahoo",
+      "password": "123456",
+      "id": 2
     }
   ]
 }

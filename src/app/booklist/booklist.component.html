@@ -5,7 +5,7 @@
   <div class="card" *ngFor="let book of books">
 
     <div class="image">
-      <img [src]="'assets/As a Man Thinketh.jpg'">
+      <img [src]="book.url">
     </div>
     <div class="title">
       <h1>{{book.title}}</h1>

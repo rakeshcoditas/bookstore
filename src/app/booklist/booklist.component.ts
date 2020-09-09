@@ -4,6 +4,7 @@ import { Book } from '../models/book';
 import { Store, select } from '@ngrx/store';
 import * as BookActions from '../book.actions';
 import * as fromBook from '../book.selectors';
+import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-booklist',
@@ -13,7 +14,7 @@ import * as fromBook from '../book.selectors';
 export class BooklistComponent implements OnInit {
   books: Book[];
   isLoggin: boolean;
-  constructor(private bookService: BookService, private store: Store) {
+  constructor(private bookService: BookService, private store: Store,public userService:UserService) {
 
   }
 
@@ -25,7 +26,7 @@ export class BooklistComponent implements OnInit {
       }
     )
     //this.getAllBooks();
-    this.bookService.isLoggin.subscribe(
+    this.userService.isLoggin.subscribe(
       (isLoggin) => {
         this.isLoggin = isLoggin
       }

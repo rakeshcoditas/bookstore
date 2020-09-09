@@ -1,20 +1,20 @@
-<form >
+<form (ngSubmit)="createUser()" >
     <div class="container">
       <h1>Register</h1>
       <p>Please fill in this form to create an account.</p>
       <hr>
   
       <label for="FullName"><b>Full Name</b></label>
-      <input type="text" placeholder="Enter your Full Name" name="FullName" required>
+      <input type="text" placeholder="Enter your Full Name" name="FullName" [(ngModel)]="user.fullName" required>
   
       <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
+      <input type="text" placeholder="Enter Email" name="email" [(ngModel)]="user.email" required>
 
       <label for="username"><b>User Name</b></label>
-      <input type="text" placeholder="user name" name="username" required>
+      <input type="text" placeholder="user name" name="username" [(ngModel)]="user.userName" required>
   
       <label for="password"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="password" required>
+      <input type="password" placeholder="Enter Password" name="password" [(ngModel)]="user.password" required>
   
      
       <hr>
