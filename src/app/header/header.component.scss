@@ -1,5 +1,5 @@
 $bgColor: #4d4d4d;
-$bgColor:#4d4d4d;
+$titleColor: #fff;
 .nav {
     height: 50px;
     width: 100%;
@@ -10,11 +10,13 @@ $bgColor:#4d4d4d;
         display: inline;
     }
 
-    .nav-header > .nav-title {
-        display: inline-block;
-        font-size: 22px;
-        color: #fff;
-        padding: 10px 10px 10px 10px;
+    .nav-header {
+        .nav-title {
+            display: inline-block;
+            font-size: 22px;
+            color: $titleColor;
+            padding: 10px 10px 10px 10px;
+        }
     }
 
     .nav-btn {
